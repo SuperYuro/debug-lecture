@@ -1,5 +1,5 @@
 // deno-lint-ignore-file no-explicit-any
-async function confirmAqc(data: any[]): Promise<string> {
+function confirmAqc(data: any[]): string {
   if (data[1] === 0) {
     return String(data[0]);
   } else {
@@ -7,7 +7,7 @@ async function confirmAqc(data: any[]): Promise<string> {
   }
 }
 
-async function findIndex(data: any[], code: string): Promise<number> {
+function findIndex(data: any[], code: string): number {
   const index = data.findIndex((i) => i.area.code === code);
   return index;
 }
