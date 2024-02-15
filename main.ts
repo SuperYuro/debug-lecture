@@ -1,11 +1,10 @@
-import { Lesson7 } from "./lesson7.ts";
+import { Lesson8 } from "./lesson8.ts";
 
-function main() {
-  const sum = Lesson7([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-  console.log(sum);
+async function main() {
+  await Lesson8();
 }
 
 // Learn more at https://deno.land/manual/examples/module_metadata#concepts
 if (import.meta.main) {
-  main();
+  await main();
 }

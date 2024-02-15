@@ -1,0 +1,10 @@
+{
+  "version": "3",
+  "redirects": {
+    "https://deno.land/std/http/server.ts": "https://deno.land/std@0.215.0/http/server.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.215.0/async/delay.ts": "8e1d18fe8b28ff95885e2bc54eccec1713f57f756053576d8228e6ca110793ad",
+    "https://deno.land/std@0.215.0/http/server.ts": "6dce295abc169d0956ae00432441331b3425afad4d79e8b3475739be2f04d614"
+  }
+}
