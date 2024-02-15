@@ -1,4 +1,4 @@
-function Greet {
+function Greet() {
   console.log("Hello, world!");
 }
 
