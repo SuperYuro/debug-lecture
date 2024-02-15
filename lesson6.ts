@@ -24,7 +24,7 @@ export async function lesson6() {
   const detailArea = "130010";
   const stnid = "44132";
 
-  const overviewForecastUrl = `https://www.jma.go.jp/bosai/foercast/data/overview_forecast/${area}.json`;
+  const overviewForecastUrl = `https://www.jma.go.jp/bosai/forecast/data/overview_forecast/${area}.json`;
   const overviewForecastRes = await fetch(overviewForecastUrl);
   const overviewForecastData = await overviewForecastRes.json();
   const overviewForecastText = overviewForecastData.text.split("\n").join(" ");
