@@ -1,7 +1,8 @@
-import { Lesson4 } from "./lesson4.ts";
+import { Lesson5 } from "./lesson5.js";
 
 function main() {
-  Lesson4();
+  Lesson5("Lesson5");
+  Lesson5(25);
 }
 
 // Learn more at https://deno.land/manual/examples/module_metadata#concepts
