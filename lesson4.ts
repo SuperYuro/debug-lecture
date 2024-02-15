@@ -2,6 +2,6 @@ function Greet() {
   console.log("Hello, world!");
 }
 
-function Lesson4() {
+export function Lesson4() {
   Greet();
 }
