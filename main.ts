@@ -1,7 +1,9 @@
-import { Lesson2 } from "./lesson2.ts";
+function Greet() {
+  console.log("Hello, world!");
+}
 
 function main() {
-  Lesson2();
+  Greet;
 }
 
 // Learn more at https://deno.land/manual/examples/module_metadata#concepts
