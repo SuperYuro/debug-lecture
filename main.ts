@@ -1,11 +1,10 @@
-import { Lesson5 } from "./lesson5.js";
+import { lesson6 } from "./lesson6.ts";
 
-function main() {
-  Lesson5("Lesson5");
-  Lesson5(25);
+async function main() {
+  await lesson6();
 }
 
 // Learn more at https://deno.land/manual/examples/module_metadata#concepts
 if (import.meta.main) {
-  main();
+  await main();
 }
