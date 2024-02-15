@@ -3,5 +3,5 @@ function Hello() {
 }
 
 export function Lesson2() {
-  Hello;
+  Hello();
 }
